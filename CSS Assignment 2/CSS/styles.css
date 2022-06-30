@@ -1,0 +1,61 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button:hover {
+    background-color: white; /* white */
+    color: black;
+}
+table{
+    border: 2px solid;
+    width: 700px;
+    border-collapse: collapse;
+  }
+/* first table */
+.row1 {
+    border-bottom: 1px solid;    
+}
+
+.sbrow {
+    border-bottom: 1px solid;
+    border-top: 1px dotted;
+    background-color: #c0c0c0;
+}
+
+.total {
+    background-color: #00ffff;
+}
+
+.column2 {
+    border-left: 1px solid;
+}
+
+.column5 {
+    border-left: 1px dotted;
+}
+/* second table */
+.table2 {
+    background-color: #e4e4e4;
+}
+
+.Brow1, .Brow2, .Brow3, .Brow4{
+    border-bottom: 1px solid;
+}
+
+.Bcolumn1, .Bcolumn2, .Bcolumn3, .Bcolumn4 {
+    border-right: 1px solid;
+}
